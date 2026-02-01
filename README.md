@@ -92,7 +92,7 @@ split -b 1900M -a 3 ollama-models.tar ollama-models.tar.part-
 git init
 git add README.md ollama-models.tar.sha256
 git commit -m "first commit"
-git remote add origin git@github.com:yamauchih1213/work.git
+git remote add origin git@github.com:yamauchih1213/ollama-models
 git puhs origin master
 ````
 * 分割した資材はreleaseを作成し、その添付ファイルとして載せる(WebUI操作)
